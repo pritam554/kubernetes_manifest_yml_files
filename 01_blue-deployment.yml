@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: javawebappcontainer
-        image: ashokit/javawebapp
+        image: pbanik554/javawebapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
