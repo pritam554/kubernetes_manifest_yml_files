@@ -4,7 +4,7 @@
     metadata:
       name: javawebpreprodservice
     spec:
-      type: NodePort
+      type: LoadBalancer
       selector:
         version: v2
       ports:
