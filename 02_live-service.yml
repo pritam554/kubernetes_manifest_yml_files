@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: javawebappliveservice
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     version: v1
   ports:
